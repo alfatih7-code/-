@@ -1,76 +1,4 @@
-ue_Java( 9897): new BLASTBufferQueue, mName= 6cabc4b SurfaceView[com.ee37.ee37/com.ee37.ee37.MainActivity]@0 mNativeObject= 0xb400007456f3c800 caller= android.view.SurfaceView.createBlastSurfaceControls:1878 android.view.SurfaceView.updateSurface:1519 android.view.SurfaceView.setWindowStopped:542 android.view.SurfaceView.surfaceCreated:2429 android.view.ViewRootImpl.notifySurfaceCreated:3520 android.view.ViewRootImpl.performTraversals:5350 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970 
-I/BLASTBufferQueue_Java( 9897): update, w= 1440 h= 3088 mName = 6cabc4b SurfaceView[com.ee37.ee37/com.ee37.ee37.MainActivity]@0 mNativeObject= 0xb400007456f3c800 sc.mNativeObject= 0xb400007456ba5680 format= 4 caller= android.view.SurfaceView.createBlastSurfaceControls:1879 android.view.SurfaceView.updateSurface:1519 android.view.SurfaceView.setWindowStopped:542 android.view.SurfaceView.surfaceCreated:2429 android.view.ViewRootImpl.notifySurfaceCreated:3520 android.view.ViewRootImpl.performTraversals:5350 
-I/SurfaceView( 9897): 113949771 Cur surface: Surface(name=null mNativeObject=0)/@0x881338a
-I/SV[113949771 MainActivity]( 9897): pST: sr = Rect(0, 0 - 1440, 3088) sw = 1440 sh = 3088
-D/SurfaceView( 9897): 113949771 performSurfaceTransaction RenderWorker position = [0, 0, 1440, 3088] surfaceSize = 1440x3088
-W/libc    ( 9897): Access denied finding property "vendor.display.enable_optimal_refresh_rate"
-I/SV[113949771 MainActivity]( 9897): updateSurface: mVisible = true mSurface.isValid() = true
-I/SV[113949771 MainActivity]( 9897): updateSurface: mSurfaceCreated = false surfaceChanged = true visibleChanged = true
-I/SurfaceView( 9897): 113949771 visibleChanged -- surfaceCreated
-I/SV[113949771 MainActivity]( 9897): surfaceCreated 1 #1 io.flutter.embedding.android.FlutterSurfaceView{6cabc4b V.E...... ......ID 0,0-1440,3088}
-E/qdgralloc( 9897): GetSize: Unrecognized pixel format: 0x3b
-W/qdgralloc( 9897): gralloc failed to allocate buffer for size 0 format 59 AWxAH 1x1 usage 2816
-E/Gralloc4( 9897): isSupported(1, 1, 59, 1, ...) failed with 7
-E/GraphicBufferAllocator( 9897): Failed to allocate (4 x 4) layerCount 1 format 59 usage b00: 7
-E/AHardwareBuffer( 9897): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -7), handle=0x0
-E/qdgralloc( 9897): GetSize: Unrecognized pixel format: 0x3b
-W/qdgralloc( 9897): gralloc failed to allocate buffer for size 0 format 59 AWxAH 1x1 usage 2816
-E/Gralloc4( 9897): isSupported(1, 1, 59, 1, ...) failed with 7
-E/GraphicBufferAllocator( 9897): Failed to allocate (4 x 4) layerCount 1 format 59 usage b00: 7
-E/AHardwareBuffer( 9897): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -7), handle=0x0
-W/qdgralloc( 9897): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
-W/qdgralloc( 9897): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
-W/qdgralloc( 9897): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
-W/qdgralloc( 9897): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
-W/qdgralloc( 9897): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
-I/SurfaceView( 9897): 113949771 surfaceChanged -- format=4 w=1440 h=3088
-I/SV[113949771 MainActivity]( 9897): surfaceChanged (1440,3088) 1 #1 io.flutter.embedding.android.FlutterSurfaceView{6cabc4b V.E...... ......ID 0,0-1440,3088}
-I/SurfaceView( 9897): 113949771 surfaceRedrawNeeded
-V/SurfaceView( 9897): Layout: x=0 y=0 w=1440 h=3088, frame=Rect(0, 0 - 1440, 3088)
-D/VRI[MainActivity]@1087007( 9897): reportNextDraw android.view.ViewRootImpl.performTraversals:5507 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970 
-D/VRI[MainActivity]@1087007( 9897): Setup new sync=wmsSync-VRI[MainActivity]@1087007#22
-I/VRI[MainActivity]@1087007( 9897): Creating new active sync group VRI[MainActivity]@1087007#23
-D/VRI[MainActivity]@1087007( 9897): Start draw after previous draw not visible
-D/VRI[MainActivity]@1087007( 9897): registerCallbacksForSync syncBuffer=false
-D/SurfaceView( 9897): 113949771 updateSurfacePosition RenderWorker, frameNr = 1, position = [0, 0, 1440, 3088] surfaceSize = 1440x3088
-I/SV[113949771 MainActivity]( 9897): uSP: rtp = Rect(0, 0 - 1440, 3088) rtsw = 1440 rtsh = 3088
-I/SV[113949771 MainActivity]( 9897): onSSPAndSRT: pl = 0 pt = 0 sx = 1.0 sy = 1.0
-I/SV[113949771 MainActivity]( 9897): aOrMT: VRI[MainActivity]@1087007 t = android.view.SurfaceControl$Transaction@bf62ff5 fN = 1 android.view.SurfaceView.-$$Nest$mapplyOrMergeTransaction:0 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionChanged:2029 android.graphics.RenderNode$CompositePositionUpdateListener.positionChanged:401 
-I/VRI[MainActivity]@1087007( 9897): mWNT: t=0xb400007456d7fc00 mBlastBufferQueue=0xb4000073863f7000 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SurfaceView.applyOrMergeTransaction:1960 android.view.SurfaceView.-$$Nest$mapplyOrMergeTransaction:0 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionChanged:2029 
-D/VRI[MainActivity]@1087007( 9897): Received frameDrawingCallback syncResult=0 frameNum=1.
-I/VRI[MainActivity]@1087007( 9897): mWNT: t=0xb400007456f45c00 mBlastBufferQueue=0xb4000073863f7000 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15561 android.view.ThreadedRenderer$1.onFrameDraw:751 <bottom of call stack> 
-I/VRI[MainActivity]@1087007( 9897): Setting up sync and frameCommitCallback
-I/BLASTBufferQueue( 9897): [VRI[MainActivity]@1087007#14](f:0,a:0,s:0) onFrameAvailable the first frame is available
-I/SurfaceComposerClient( 9897): apply transaction with the first frame. layerId: 394297, bufferData(ID: 42507291328669, frameNumber: 1)
-I/VRI[MainActivity]@1087007( 9897): Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
-I/BLASTBufferQueue( 9897): [6cabc4b SurfaceView[com.ee37.ee37/com.ee37.ee37.MainActivity]@0#15](f:0,a:0,s:0) onFrameAvailable the first frame is available
-I/SurfaceComposerClient( 9897): apply transaction with the first frame. layerId: 394300, bufferData(ID: 42507291328664, frameNumber: 1)
-D/VRI[MainActivity]@1087007( 9897): reportDrawFinished seqId=0
-I/SurfaceView( 9897): 113949771 finishedDrawing
-D/VRI[MainActivity]@1087007( 9897): mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000074ade6dc00}
-I/flutter ( 9897): 🔄 [Home] App resumed — stream يراقب الأمان تلقائياً
-D/InputMethodManagerUtils( 9897): startInputInner - Id : 0
-I/InputMethodManager( 9897): startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
-D/InputTransport( 9897): Input channel constructed: 'ClientS', fd=218
-D/InsetsController( 9897): hide(ime())
-I/ImeTracker( 9897): com.ee37.ee37:8f4b995c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
-I/VRI[MainActivity]@1087007( 9897): call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@1087007
-I/flutter ( 9897): animate: true
-I/flutter ( 9897): animate: true
-I/flutter ( 9897): animate: true
-I/flutter ( 9897): animate: true
-I/flutter ( 9897): animate: true
-I/flutter ( 9897): animate: true
-I/flutter ( 9897): animate: true
-I/flutter ( 9897): animate: true
-I/flutter ( 9897): animate: true
-I/flutter ( 9897): animate: true
-I/flutter ( 9897): animate: true
-I/flutter ( 9897): animate: true
-I/InputMethodManager_LC( 9897): showSoftInput(View,I)
-I/ImeTracker( 9897): com.ee37.ee37:4ec87cd1: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
-I/InputMethodManager_LC( 9897): ssi(): flags=0 view=com.ee37.ee37 reason=SHOW_SOFT_INPUT
-I/InputMethodManager_LC( 9897): ssi() view is not EditText
+er_LC( 9897): ssi() view is not EditText
 D/InputMethodManagerUtils( 9897): startInputInner - Id : 0
 I/InputMethodManager( 9897): startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
 D/InsetsController( 9897): show(ime())
@@ -5964,4 +5892,165 @@ C:\Users\Alfat\AndroidStudioProjects\ee377\assets\emojis\3d\1f6b5_1f3fb_2640_3d.
 C:\Users\Alfat\AndroidStudioProjects\ee377\assets\emojis\3d\1f6b5_1f3fb_2642_3d.png    0.05
 
 
+PS C:\Users\Alfat\AndroidStudioProjects\ee377> 
+PS C:\Users\Alfat\AndroidStudioProjects\ee377> flutter build apk --release --split-per-abi
+Resolving dependencies... 
+Downloading packages... 
+  _flutterfire_internals 1.3.59 (1.3.73 available)
+  animate_do 3.3.9 (5.1.0 available)
+  animations 2.1.2 (2.2.0 available)
+  app_links 7.0.0 (7.1.2 available)
+  app_links_platform_interface 2.0.2 (2.0.3 available)
+  archive 3.6.1 (4.0.9 available)
+  audio_session 0.1.25 (0.2.3 available)
+  cli_util 0.4.2 (0.5.1 available)
+  cloud_firestore 5.6.12 (6.6.0 available)
+  cloud_firestore_platform_interface 6.6.12 (8.0.3 available)
+  cloud_firestore_web 4.4.12 (5.6.0 available)
+  code_assets 1.0.0 (1.2.1 available)
+  connectivity_plus 6.1.5 (7.1.1 available)
+  dart_jsonwebtoken 3.4.0 (3.4.1 available)
+  dbus 0.7.12 (0.7.14 available)
+  device_info_plus 11.5.0 (13.1.0 available)
+  device_info_plus_platform_interface 7.0.3 (8.1.0 available)
+  device_marketing_names 2.0.0 (2.0.1 available)
+  extension 0.6.0 (1.0.0 available)
+  file_picker 8.3.7 (11.0.2 available)
+  firebase_analytics 11.6.0 (12.4.3 available)
+  firebase_analytics_platform_interface 4.4.3 (6.0.3 available)
+  firebase_analytics_web 0.5.10+16 (0.6.1+9 available)
+  firebase_core 3.15.2 (4.11.0 available)
+  firebase_core_platform_interface 6.0.3 (7.1.0 available)
+  firebase_core_web 2.24.1 (3.9.0 available)
+  firebase_crashlytics 4.3.10 (5.2.4 available)
+  firebase_crashlytics_platform_interface 3.8.10 (3.8.24 available)
+  firebase_messaging 15.2.10 (16.4.0 available)
+  firebase_messaging_platform_interface 4.6.10 (4.9.0 available)
+  firebase_messaging_web 3.10.10 (4.2.1 available)
+  firebase_storage 12.4.10 (13.4.3 available)
+  firebase_storage_platform_interface 5.2.10 (6.0.3 available)
+  firebase_storage_web 3.10.17 (3.11.9 available)
+  fl_chart 0.66.2 (1.2.0 available)
+  flutter_lints 3.0.2 (6.0.0 available)
+  flutter_local_notifications 17.2.4 (22.0.1 available)
+  flutter_local_notifications_linux 4.0.1 (8.0.1 available)
+  flutter_local_notifications_platform_interface 7.2.0 (12.0.0 available)
+  flutter_plugin_android_lifecycle 2.0.34 (2.0.35 available)
+  flutter_sound_platform_interface 9.30.0 (10.3.8 available)
+  flutter_sound_web 9.30.0 (10.3.8 available)
+  flutter_svg 2.2.4 (2.3.0 available)
+  font_awesome_flutter 10.12.0 (11.0.0 available)
+  functions_client 2.5.0 (2.6.1 available)
+  geocoding 3.0.0 (4.0.0 available)
+  geocoding_android 3.3.1 (5.0.1 available)
+  geocoding_platform_interface 3.2.0 (5.0.0 available)
+  geolocator 12.0.0 (14.0.3 available)
+  geolocator_android 4.6.2 (5.0.3 available)
+  geolocator_apple 2.3.13 (2.3.14 available)
+  geolocator_platform_interface 4.2.6 (4.2.8 available)
+  geolocator_web 4.1.3 (4.1.4 available)
+  google_fonts 6.3.3 (8.1.0 available)
+  google_maps_flutter 2.17.0 (2.17.1 available)
+  google_maps_flutter_android 2.19.5 (2.19.12 available)
+  google_maps_flutter_ios 2.18.1 (2.18.3 available)
+  google_maps_flutter_web 0.6.2 (0.6.2+3 available)
+  googleapis_auth 2.0.0 (2.3.2 available)
+  gotrue 2.19.0 (2.22.0 available)
+  gtk 2.1.0 (2.2.0 available)
+  hooks 1.0.2 (2.0.2 available)
+  image 4.3.0 (4.9.1 available)
+  image_picker 1.2.1 (1.2.2 available)
+  image_picker_android 0.8.13+16 (0.8.13+19 available)
+! intl 0.19.0 (overridden) (0.20.2 available)
+  json_annotation 4.11.0 (4.12.0 available)
+  just_audio 0.9.46 (0.10.5 available)
+  lints 3.0.0 (6.1.0 available)
+  lottie 3.3.0 (3.3.3 available)
+  matcher 0.12.19 (0.12.20 available)
+  meta 1.17.0 (1.18.3 available)
+  native_toolchain_c 0.17.6 (0.19.1 available)
+  objective_c 9.3.0 (9.4.1 available)
+  package_info_plus 8.3.1 (10.1.0 available)
+  package_info_plus_platform_interface 3.2.1 (4.1.0 available)
+  path_provider 2.1.5 (2.1.6 available)
+  path_provider_android 2.2.23 (2.3.1 available)
+  path_provider_platform_interface 2.1.2 (2.1.3 available)
+  permission_handler 11.4.0 (12.0.3 available)
+  permission_handler_android 12.1.0 (13.0.1 available)
+  permission_handler_apple 9.4.7 (9.4.10 available)
+  petitparser 6.1.0 (7.0.2 available)
+  postgrest 2.6.0 (2.7.2 available)
+  qr 3.0.2 (4.0.0 available)
+  realtime_client 2.7.1 (2.8.0 available)
+  share_plus 10.1.4 (13.1.0 available)
+  share_plus_platform_interface 5.0.2 (7.1.0 available)
+  shared_preferences_android 2.4.23 (2.4.26 available)
+  showcaseview 3.0.0 (5.1.0 available)
+  sqflite 2.4.2 (2.4.3 available)
+  sqflite_android 2.4.2+3 (2.4.3 available)
+  sqflite_common 2.5.6 (2.5.11 available)
+  sqflite_darwin 2.4.2 (2.4.3 available)
+  sqflite_platform_interface 2.4.0 (2.4.1 available)
+  storage_client 2.5.1 (2.5.7 available)
+  supabase 2.10.4 (2.13.0 available)
+  supabase_flutter 2.12.2 (2.15.0 available)
+  syncfusion_flutter_core 28.2.12 (33.2.13+1 available)
+  syncfusion_flutter_pdf 28.2.12 (33.2.13+1 available)
+  syncfusion_flutter_pdfviewer 28.2.12 (33.2.13+1 available)
+  syncfusion_flutter_signaturepad 28.2.12 (33.2.13+1 available)
+  syncfusion_pdfviewer_macos 28.2.12 (33.2.13+1 available)
+  syncfusion_pdfviewer_platform_interface 28.2.12 (33.2.13+1 available)
+  syncfusion_pdfviewer_web 28.2.12 (33.2.13+1 available)
+  syncfusion_pdfviewer_windows 28.2.12 (33.2.13+1 available)
+  synchronized 3.4.0 (3.4.1 available)
+  test_api 0.7.10 (0.7.12 available)
+  timezone 0.9.4 (0.11.0 available)
+  unicode 1.1.7 (1.1.9 available)
+  url_launcher_android 6.3.29 (6.3.32 available)
+  url_launcher_web 2.4.2 (2.4.3 available)
+  vector_graphics 1.1.21 (1.2.2 available)
+  vector_graphics_compiler 1.2.0 (1.2.6 available)
+  vector_math 2.2.0 (2.4.0 available)
+  video_player_android 2.9.5 (2.9.6 available)
+  video_player_avfoundation 2.9.4 (2.9.7 available)
+  video_player_platform_interface 6.6.0 (6.7.0 available)
+  vm_service 15.0.2 (15.2.0 available)
+  wakelock_plus 1.3.3 (1.6.1 available)
+  wakelock_plus_platform_interface 1.4.0 (1.5.1 available)
+  webview_flutter 4.13.1 (4.14.0 available)
+  webview_flutter_android 4.12.0 (4.13.0 available)
+  webview_flutter_wkwebview 3.25.1 (3.26.0 available)
+  win32 5.15.0 (6.3.0 available)
+  win32_registry 2.1.0 (3.0.3 available)
+  xml 6.5.0 (7.0.1 available)
+  yet_another_json_isolate 2.1.0 (2.1.1 available)
+  youtube_explode_dart 2.5.3 (3.1.0 available)
+Got dependencies!
+129 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+This application cannot tree shake icons fonts. It has non-constant instances of IconData at the following locations:
+  - file:///C:/Users/Alfat/AndroidStudioProjects/ee377/lib/src/features/chat/academic_categories_dynamic.dart:51:25
+  - file:///C:/Users/Alfat/AndroidStudioProjects/ee377/lib/src/features/chat/academic_categories_dynamic.dart:853:31
+  - file:///C:/Users/Alfat/AndroidStudioProjects/ee377/lib/src/features/home/presentation/screens/my_space_screen.dart:246:13
+  - file:///C:/Users/Alfat/AndroidStudioProjects/ee377/lib/src/features/home/presentation/screens/my_space_screen.dart:263:13
+  - file:///C:/Users/Alfat/AndroidStudioProjects/ee377/lib/src/features/home/presentation/screens/my_space_screen.dart:289:11
+  - file:///C:/Users/Alfat/AndroidStudioProjects/ee377/lib/src/features/home/presentation/screens/my_space_screen.dart:347:9
+Target aot_android_asset_bundle failed: Error: Avoid non-constant invocations of IconData or try to build again with --no-tree-shake-icons.
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildRelease'.
+> Process 'command 'C:\src\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 5m 14s
+Running Gradle task 'assembleRelease'...                          315.0s
+Gradle task assembleRelease failed with exit code 1
 PS C:\Users\Alfat\AndroidStudioProjects\ee377> 
